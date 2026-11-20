@@ -8,7 +8,7 @@
 .disp{font-family:"SG","Space Grotesk",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-weight:700;letter-spacing:-1px}
 .sans{font-family:"GS","Geist",-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
 .mono{font-family:"GM","Geist Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
-.in{opacity:0;animation:in .8s cubic-bezier(.22,1,.36,1) forwards}
+.in{}
 @keyframes in{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 .word{transform:translateY(80px);animation:word 11.2s cubic-bezier(.22,1,.36,1) infinite both}
 @keyframes word{0%{transform:translateY(80px)}4.9%,20.2%{transform:translateY(0)}25%,100%{transform:translateY(-80px)}}
